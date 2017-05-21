@@ -12,7 +12,7 @@ audio.background.addEventListener('ended', function() {
     this.currentTime = 0;
     this.play();
 }, false);
-//audio.background.play();
+audio.background.play();
 function twinkle(){
     var state = dialog.nxt.style.visibility;
     if (state=="visible"){
